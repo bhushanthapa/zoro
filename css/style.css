@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*========================= MENU============================*/
+.navbar{
+    padding: 22px 0px;
+    border-bottom: none  !important;
+    background-color: transparent !important;
+    borde:1px solid red;
+}
+
+.navbar ul li a{
+    color: #ffff;
+    text-transform:uppercase;
+     letter-spacing: 1px;
+      font-weight: bold;
+    transation all  0.5s ease-in;
+}
+
+.navbar ul li a:hover {
+     color:#AAEB83!important;
+}
+
+.navbar-toggle{
+    border: 1px solid #fff !important;
+}
+
+.navbar-toggle:hover{
+    color:skyblue!important;
+    transation all  0.5s ease-in;
+}
+
+.navbar-inverse .navbar-collapse{
+    border-color:transparent !important;
+}
+/*========================= MENU Ends============================*/
+
+/*========================= Navigation Start============================*/
+ .location{
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+/*========================= Navigation Ends============================*/
+
+/*========================= Slider Start============================*/
+.slider{
+    width: 100%;
+    height:700px;
+    background-image: url(..//image/Zoro-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-overlay{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.65);
+    position: relative;
+}
+
+.slider-content{
+    position: absolute;
+    top: 39%;
+    width:100%;
+}
+.icons .fa{
+    color:#fff !important;
+    font-size:35px;
+    margin-right: 7px;
+}
+.btn1{
+padding: 10px 18px;
+letter-spacing: 1px;
+color: #fff;
+background-color: transparent;
+text-transform: uppercase;
+font-size: 13px;
+border:2px solid #fff;
+border-top-left-radius: 15px;
+transition: all  0.3s ease-in-out;
+}
+.btn2{
+    padding: 10px 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 13px;
+    border:2px solid #fff;
+    border-bottom-right-radius: 15px;
+    transition: all  0.3s ease-in-out;
+    margin-left: -6px;
+}
+.btn1:hover , .btn2:hover {
+    color:#fff;
+    background-color:#AAEB83;
+    text-decoration: none;
+}
+.social-networks .fa{
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    color: #fff;
+    transition: all  0.3s ease-in-out;
+}
+.social-networks .fa:hover{
+    color:#AAEB83;
+    background-color:#fff;
+    text-decoration: none;
+    border: 2px solid #AAEB83;
+}
+
+/*========================= Slider Ends============================*/
+
+
+/*========================= Service starts============================*/
+
+.service-area{
+    margin-top:30px;
+}
+.service-area p{
+    margin-bottom:-5px;
+}
+.service-wrap{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    padding:  25px 25px;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    z-index: 9;
+}
+
+.service-wrap::before, .service-wrap::after{
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width:120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;
+}
+
+.service-wrap::before{
+    top:-37px;
+    left:100%;
+}
+
+.service-wrap:hover:before{
+    left:-27px;
+    opacity:1;
+}
+.service-wrap::after{
+    right:100%;
+    bottom:-37px;
+}
+.service-wrap:hover:after{
+    right:-27px;
+   opacity: 1;
+}
+.service-wrap:hover{
+    color: #fff;
+}
+.service-wrap h3{
+     color: #fff;
+}
+.service-wrap:hover h3{
+    color: #fff;
+}
+.service-wrap:hover h3:after{
+    background-color:#fff
+}
+.service-icon{
+    font-size: 30px;
+    margin-bottom:20px;
+    transition: all 0.5s;
+}
+.service-wrap:hover .service-icon i{
+    transform: rotate(360deg);
+}
+.service-wrap h3{
+    font-size: 25px;
+    font-weight:700;
+    padding-bottom: 15px;
+    position: relative;
+}
+service-wrap p{
+    font-size: 14px;
+    margin-bottom 0;
+}
